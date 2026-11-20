@@ -1,0 +1,70 @@
+name: Build MeloloWrapper
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Decode source -> build -> release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source mentah
+        uses: actions/checkout@v4
+
+      - name: Siapkan Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Dekode source base64
+        run: |
+          set -euo pipefail
+          mkdir -p build
+          for f in src/*.b64; do
+            nama="$(basename "$f" .b64)"
+            echo "decode: $nama"
+            base64 -d "$f" > "build/$nama"
+          done
+          chmod +x build/buka.sh
+          ls -la build
+
+      - name: Cek sintaks source hasil dekode
+        run: |
+          set -euo pipefail
+          python3 -m py_compile build/melolo_client.py build/melolo_gui.py
+
+      - name: Kemas hasil build
+        run: |
+          set -euo pipefail
+          cp README.md build/README.md
+          cd build
+          zip -r ../melolowrapper-linux.zip . -x '__pycache__/*'
+
+      - name: Upload artefak build
+        uses: actions/upload-artifact@v4
+        with:
+          name: melolowrapper-linux
+          path: melolowrapper-linux.zip
+
+      - name: Push hasil build ke GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG="${GITHUB_REF_NAME}"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release $TAG sudah ada, memperbarui aset."
+          else
+            gh release create "$TAG" \
+              --title "MeloloWrapper $TAG" \
+              --generate-notes \
+              --target "$GITHUB_SHA"
+          fi
+          gh release upload "$TAG" melolowrapper-linux.zip --clobber
+          gh release view "$TAG"

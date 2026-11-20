@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Melolo Linux
-Comment=Klien GUI Melolo hasil reverse engineering XAPK v5.5.4
-Exec=/home/mahiro/melolo-linux/buka.sh
-Icon=video
-Terminal=false
-StartupNotify=true
-Categories=Video;
