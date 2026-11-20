@@ -11,10 +11,10 @@ permissions:
 
 jobs:
   build:
-    name: Decode source -> build -> release
+    name: Source -> build -> release
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source mentah
+      - name: Checkout source
         uses: actions/checkout@v4
 
       - name: Siapkan Python
@@ -22,27 +22,23 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Dekode source base64
+      - name: Cek sintaks source
+        run: |
+          set -euo pipefail
+          python3 -m py_compile src/melolo_client.py src/melolo_gui.py
+
+      - name: Susun hasil build
         run: |
           set -euo pipefail
           mkdir -p build
-          for f in src/*.b64; do
-            nama="$(basename "$f" .b64)"
-            echo "decode: $nama"
-            base64 -d "$f" > "build/$nama"
-          done
+          cp src/* build/
           chmod +x build/buka.sh
+          cp README.md build/README.md
           ls -la build
-
-      - name: Cek sintaks source hasil dekode
-        run: |
-          set -euo pipefail
-          python3 -m py_compile build/melolo_client.py build/melolo_gui.py
 
       - name: Kemas hasil build
         run: |
           set -euo pipefail
-          cp README.md build/README.md
           cd build
           zip -r ../melolowrapper-linux.zip . -x '__pycache__/*'
 

@@ -1,0 +1,1471 @@
+{
+  "operations": [
+    {
+      "method": "POST",
+      "path": "/api/ad/union/mediation/shuffler/",
+      "serializer": "JSON",
+      "request_type": "ShufflerRequest",
+      "source": "out_dex10/sources/com/worldance/novel/littleend/rpc/ApiHttp.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/ugc/reply/add/v1/",
+      "serializer": "JSON",
+      "request_type": "AddCommentReplyRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/ugc/comment/add/v1/",
+      "serializer": "JSON",
+      "request_type": "AddNovelCommentRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/ugc/comment/delete/v1/",
+      "serializer": "JSON",
+      "request_type": "DelNovelCommentRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/ugc/delete/v1/",
+      "serializer": "JSON",
+      "request_type": "DeleteObjectRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/ugc/comment/digg/v1/",
+      "serializer": "JSON",
+      "request_type": "DiggRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/ugc/action/v1/",
+      "serializer": "JSON",
+      "request_type": "DoActionRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/ugc/comment/book/list/v1/",
+      "serializer": "JSON",
+      "request_type": "GetBookCommentListRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/ugc/comment/item/list/v1/",
+      "serializer": "JSON",
+      "request_type": "GetItemCommentListRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/ugc/reply/item/list/v1/",
+      "serializer": "JSON",
+      "request_type": "GetItemReplyListRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/ugc/message/item_reply/v1/",
+      "serializer": "JSON",
+      "request_type": "GetMessageItemReplyRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/ugc/comment/post/list/v1/",
+      "serializer": "JSON",
+      "request_type": "GetPostCommentListRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/ugc/reply/post/list/v1/",
+      "serializer": "JSON",
+      "request_type": "GetPostReplyListRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/ugc/post/url/v1/",
+      "serializer": "JSON",
+      "request_type": "GetPostUrlRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/ugc/comment/topic/list/v1/",
+      "serializer": "JSON",
+      "request_type": "GetTopicCommentListRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/ugc/reply/topic/list/v1/",
+      "serializer": "JSON",
+      "request_type": "GetTopicReplyListRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/ugc/user_comment_reply/list/v1/",
+      "serializer": "JSON",
+      "request_type": "GetUserCommentReplyListRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/ugc/user_post/list/v1/",
+      "serializer": "JSON",
+      "request_type": "GetUserPostListRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/ugc/user_relation/list/v1/",
+      "serializer": "JSON",
+      "request_type": "GetUserRelationRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/ugc/post/detail/v1/",
+      "serializer": "JSON",
+      "request_type": "MGetPostDataRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/ugc/comment/report/v1/",
+      "serializer": "JSON",
+      "request_type": "ReportCommentRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/ugc/report/v1/",
+      "serializer": "JSON",
+      "request_type": "ReportRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/ugc/comment/update/v1/",
+      "serializer": "JSON",
+      "request_type": "UpdateNovelCommentRequest",
+      "source": "out_dex11/sources/com/worldance/novel/rpc/rpc/UgcApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/novel/player/video_detail/v1/",
+      "serializer": "JSON",
+      "request_type": "GetVideoDetailRequest",
+      "source": "out_dex12/sources/seriessdk/com/dragon/read/saas/rpc/rpc/PlayerApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/novel/player/video_model/v1/",
+      "serializer": "JSON",
+      "request_type": "GetVideoModelRequest",
+      "source": "out_dex12/sources/seriessdk/com/dragon/read/saas/rpc/rpc/PlayerApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/novel/player/multi_video_detail/v1/",
+      "serializer": "JSON",
+      "request_type": "GetVideoDetailRequest",
+      "source": "out_dex12/sources/seriessdk/com/dragon/read/saas/rpc/rpc/PlayerApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/novel/player/multi_video_model/v1/",
+      "serializer": "JSON",
+      "request_type": "GetVideoModelRequest",
+      "source": "out_dex12/sources/seriessdk/com/dragon/read/saas/rpc/rpc/PlayerApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "{url}",
+      "serializer": "FORM",
+      "request_type": null,
+      "source": "out_dex12/sources/com/bytedance/rpc/service/GeneralService.java"
+    },
+    {
+      "method": "POST",
+      "path": "{url}",
+      "serializer": "FORM",
+      "request_type": null,
+      "source": "out_dex12/sources/com/bytedance/rpc/service/GeneralService.java"
+    },
+    {
+      "method": "GET",
+      "path": "{url}",
+      "serializer": null,
+      "request_type": null,
+      "source": "out_dex12/sources/com/bytedance/rpc/service/GeneralService.java"
+    },
+    {
+      "method": "GET",
+      "path": "{url}",
+      "serializer": null,
+      "request_type": null,
+      "source": "out_dex12/sources/com/bytedance/rpc/service/GeneralService.java"
+    },
+    {
+      "method": "POST",
+      "path": "{url}",
+      "serializer": null,
+      "request_type": null,
+      "source": "out_dex12/sources/com/bytedance/rpc/service/GeneralService.java"
+    },
+    {
+      "method": "POST",
+      "path": "{url}",
+      "serializer": null,
+      "request_type": null,
+      "source": "out_dex12/sources/com/bytedance/rpc/service/GeneralService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/reading/msgapi/clear_unread_messages/v:version/",
+      "serializer": "JSON",
+      "request_type": "PostClearUnreadCountRequest",
+      "source": "out_dex12/sources/com/bytedance/rpc/model/rpc/MsgApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/reading/msgapi/delmsg/v:version/",
+      "serializer": "JSON",
+      "request_type": "DelMessageByMsgIdRequest",
+      "source": "out_dex12/sources/com/bytedance/rpc/model/rpc/MsgApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/reading/msgapi/get_inner_push_msg/v:version/",
+      "serializer": "JSON",
+      "request_type": "GetInnerPushMsgRequest",
+      "source": "out_dex12/sources/com/bytedance/rpc/model/rpc/MsgApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/reading/msgapi/getinteractivation/v:version/",
+      "serializer": "JSON",
+      "request_type": "GetInteractivationRequest",
+      "source": "out_dex12/sources/com/bytedance/rpc/model/rpc/MsgApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/reading/msgapi/getmessagebydirection/v:version/",
+      "serializer": "JSON",
+      "request_type": "GetMessageByDirectionRequest",
+      "source": "out_dex12/sources/com/bytedance/rpc/model/rpc/MsgApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/reading/msgapi/msg_group_list/v:version/",
+      "serializer": "JSON",
+      "request_type": "GetMsgGroupListRequest",
+      "source": "out_dex12/sources/com/bytedance/rpc/model/rpc/MsgApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/reading/msgapi/multi_tab_unread_count/v:version/",
+      "serializer": "JSON",
+      "request_type": "GetMultiTabUnreadCountRequest",
+      "source": "out_dex12/sources/com/bytedance/rpc/model/rpc/MsgApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/reading/msgapi/getnewmsgcount/v:version/",
+      "serializer": "JSON",
+      "request_type": "GetNewMsgCountRequest",
+      "source": "out_dex12/sources/com/bytedance/rpc/model/rpc/MsgApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/reading/msgapi/getnewmsggroupcount/v:version/",
+      "serializer": "JSON",
+      "request_type": "GetNewMsgGroupCountRequest",
+      "source": "out_dex12/sources/com/bytedance/rpc/model/rpc/MsgApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/reading/msgapi/getnotification/v:version/",
+      "serializer": "JSON",
+      "request_type": "GetNotificationRequest",
+      "source": "out_dex12/sources/com/bytedance/rpc/model/rpc/MsgApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/reading/msgapi/get_red_dot_notify/v:version/",
+      "serializer": "JSON",
+      "request_type": "GetRedDotNotifyRequest",
+      "source": "out_dex12/sources/com/bytedance/rpc/model/rpc/MsgApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/reading/msgapi/getrelatedynamiccount/v:version/",
+      "serializer": "JSON",
+      "request_type": "GetRelateDynamicCountRequest",
+      "source": "out_dex12/sources/com/bytedance/rpc/model/rpc/MsgApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/reading/msgapi/getrelatedynamic/v:version/",
+      "serializer": "JSON",
+      "request_type": "GetRelateDynamicRequest",
+      "source": "out_dex12/sources/com/bytedance/rpc/model/rpc/MsgApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/reading/msgapi/get_ugc_message/v:version/",
+      "serializer": "JSON",
+      "request_type": "GetUgcMessageRequest",
+      "source": "out_dex12/sources/com/bytedance/rpc/model/rpc/MsgApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/reading/msgapi/inner_push_msg_ack/v:version/",
+      "serializer": "JSON",
+      "request_type": "InnerPushMsgAckRequest",
+      "source": "out_dex12/sources/com/bytedance/rpc/model/rpc/MsgApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/reading/msgapi/notifylist/v:version/",
+      "serializer": "JSON",
+      "request_type": "NotifylistRequest",
+      "source": "out_dex12/sources/com/bytedance/rpc/model/rpc/MsgApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/reading/msgapi/red_dot/query/v:version/",
+      "serializer": "JSON",
+      "request_type": "QueryRedDotsRequest",
+      "source": "out_dex12/sources/com/bytedance/rpc/model/rpc/MsgApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/reading/msgapi/red_dot/report/v:version/",
+      "serializer": "JSON",
+      "request_type": "ReportRedDotEventsRequest",
+      "source": "out_dex12/sources/com/bytedance/rpc/model/rpc/MsgApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/reading/msgapi/syncAll/v:version/",
+      "serializer": "JSON",
+      "request_type": "SyncAllRequest",
+      "source": "out_dex12/sources/com/bytedance/rpc/model/rpc/MsgApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/novel/commentapi/comment/add/v1/",
+      "serializer": "JSON",
+      "request_type": "AddCommentRequest",
+      "source": "out_dex15/sources/com/dragon/read/saas/ugc/rpc/CommentApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/novel/commentapi/reply/add/v1/",
+      "serializer": "JSON",
+      "request_type": "AddReplyRequest",
+      "source": "out_dex15/sources/com/dragon/read/saas/ugc/rpc/CommentApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/novel/commentapi/comment/del/v1/",
+      "serializer": "JSON",
+      "request_type": "DelCommentRequest",
+      "source": "out_dex15/sources/com/dragon/read/saas/ugc/rpc/CommentApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/novel/commentapi/comment/do_action/v1/",
+      "serializer": "JSON",
+      "request_type": "DoActionRequest",
+      "source": "out_dex15/sources/com/dragon/read/saas/ugc/rpc/CommentApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/novel/commentapi/comment/list/:group_id/v1/",
+      "serializer": "JSON",
+      "request_type": "GetCommentListRequest",
+      "source": "out_dex15/sources/com/dragon/read/saas/ugc/rpc/CommentApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/novel/commentapi/reply/list/:comment_id/v1/",
+      "serializer": "JSON",
+      "request_type": "GetReplyListRequest",
+      "source": "out_dex15/sources/com/dragon/read/saas/ugc/rpc/CommentApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/novel/commentapi/user_config/get/v1/",
+      "serializer": "JSON",
+      "request_type": "GetUserConfigRequest",
+      "source": "out_dex15/sources/com/dragon/read/saas/ugc/rpc/CommentApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/novel/commentapi/comment/report/v1/",
+      "serializer": "JSON",
+      "request_type": "ReportCommentRequest",
+      "source": "out_dex15/sources/com/dragon/read/saas/ugc/rpc/CommentApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/book/bookshelf/add/v1/",
+      "serializer": "JSON",
+      "request_type": "AddBookshelfRequest",
+      "source": "out_dex17/sources/com/worldance/novel/rpc/rpc/BookApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/book/subscription/cancel/v1/",
+      "serializer": "JSON",
+      "request_type": "CancelSubscriptionRequest",
+      "source": "out_dex17/sources/com/worldance/novel/rpc/rpc/BookApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/book/bookshelf/delete/v1/",
+      "serializer": "JSON",
+      "request_type": "DeleteBookshelfRequest",
+      "source": "out_dex17/sources/com/worldance/novel/rpc/rpc/BookApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/book/land_page_info/v1/",
+      "serializer": "JSON",
+      "request_type": "GetBookLandPageInfoRequest",
+      "source": "out_dex17/sources/com/worldance/novel/rpc/rpc/BookApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/book/bookshelf/list/v1/",
+      "serializer": "JSON",
+      "request_type": "GetBookshelfRequest",
+      "source": "out_dex17/sources/com/worldance/novel/rpc/rpc/BookApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/book/category/list/v1/",
+      "serializer": "JSON",
+      "request_type": "GetCategoryListRequest",
+      "source": "out_dex17/sources/com/worldance/novel/rpc/rpc/BookApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/book/directory/info/v1/",
+      "serializer": "JSON",
+      "request_type": "GetDirectoryInfoRequest",
+      "source": "out_dex17/sources/com/worldance/novel/rpc/rpc/BookApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/book/questionnaire/list/v1/",
+      "serializer": "JSON",
+      "request_type": "GetQuestionnaireInfoRequest",
+      "source": "out_dex17/sources/com/worldance/novel/rpc/rpc/BookApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/book/subscription/series_next_reservation/v1/",
+      "serializer": "JSON",
+      "request_type": "GetSeriesNextReservationRequest",
+      "source": "out_dex17/sources/com/worldance/novel/rpc/rpc/BookApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/book/feedback/reason_list/v1/",
+      "serializer": "JSON",
+      "request_type": "GetUserFeedbackReasonInfoRequest",
+      "source": "out_dex17/sources/com/worldance/novel/rpc/rpc/BookApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/book/subscription/list/v1/",
+      "serializer": "JSON",
+      "request_type": "ListSubscriptionsRequest",
+      "source": "out_dex17/sources/com/worldance/novel/rpc/rpc/BookApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/book/books/detail/",
+      "serializer": "JSON",
+      "request_type": "MGetBookDetailRequest",
+      "source": "out_dex17/sources/com/worldance/novel/rpc/rpc/BookApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/book/questionnaire/report/v1/",
+      "serializer": "JSON",
+      "request_type": "ReportQuestionnaireRequest",
+      "source": "out_dex17/sources/com/worldance/novel/rpc/rpc/BookApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/book/subscription/subscribe/v1/",
+      "serializer": "JSON",
+      "request_type": "SubscribeRequest",
+      "source": "out_dex17/sources/com/worldance/novel/rpc/rpc/BookApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/book/bookshelf/sync/v1/",
+      "serializer": "JSON",
+      "request_type": "SyncBookshelfRequest",
+      "source": "out_dex17/sources/com/worldance/novel/rpc/rpc/BookApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/book/upload_non_recommend/v1/",
+      "serializer": "JSON",
+      "request_type": "UploadNonRecommendEventRequest",
+      "source": "out_dex17/sources/com/worldance/novel/rpc/rpc/BookApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/trade/sub_order_status_check_v3/v1/",
+      "serializer": "JSON",
+      "request_type": "CheckSubOrderStatusRequest",
+      "source": "out_dex2/sources/com/worldance/novel/rpc/rpc/TradeService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/trade/vip/create_subscribe_order_v3/v1/",
+      "serializer": "JSON",
+      "request_type": "CreateVipSubscribeOrderV3Request",
+      "source": "out_dex2/sources/com/worldance/novel/rpc/rpc/TradeService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/trade/ad_list_v2/v1/",
+      "serializer": "JSON",
+      "request_type": "GetAdListV2Request",
+      "source": "out_dex2/sources/com/worldance/novel/rpc/rpc/TradeService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/trade/commercial/strategy/v1/",
+      "serializer": "JSON",
+      "request_type": "GetCommercialStrategyRequest",
+      "source": "out_dex2/sources/com/worldance/novel/rpc/rpc/TradeService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/trade/little_end/ab_config/v1/",
+      "serializer": "JSON",
+      "request_type": "GetLittleEndABConfigRequest",
+      "source": "out_dex2/sources/com/worldance/novel/rpc/rpc/TradeService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/trade/vip/popup/v1/",
+      "serializer": "JSON",
+      "request_type": "GetVipDiscountPopupRequest",
+      "source": "out_dex2/sources/com/worldance/novel/rpc/rpc/TradeService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/trade/vip/product_list_v3/v1/",
+      "serializer": "JSON",
+      "request_type": "GetVipProductListV3Request",
+      "source": "out_dex2/sources/com/worldance/novel/rpc/rpc/TradeService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/trade/report_ad_event/v1/",
+      "serializer": "JSON",
+      "request_type": "ReportAdEventRequest",
+      "source": "out_dex2/sources/com/worldance/novel/rpc/rpc/TradeService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/trade/onhold/popup/record/v1/",
+      "serializer": "JSON",
+      "request_type": "UploadOnHoldPopupRecordRequest",
+      "source": "out_dex2/sources/com/worldance/novel/rpc/rpc/TradeService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/trade/vip/popup/record/v1/",
+      "serializer": "JSON",
+      "request_type": "UploadVipDiscountPopupRecordRequest",
+      "source": "out_dex2/sources/com/worldance/novel/rpc/rpc/TradeService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/luckycat/i18n/melolo/referral/v1/report/time",
+      "serializer": "JSON",
+      "request_type": "ReportTimeReq",
+      "source": "out_dex2/sources/com/bytedance/rpc/luckycat/rpc/OverseasHttpService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/luckycat/i18n/melolo/referral/v1/settings/get",
+      "serializer": "JSON",
+      "request_type": "SettingsGetReq",
+      "source": "out_dex2/sources/com/bytedance/rpc/luckycat/rpc/OverseasHttpService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/bookmall/tab/v1/",
+      "serializer": "PB",
+      "request_type": "GetBookMallHomePageRequest",
+      "source": "out_dex3/sources/com/worldance/novel/pbrpc/I18NNovelPbapi.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/bookmall/cell/change/v1/",
+      "serializer": "PB",
+      "request_type": "GetCellChangeRequest",
+      "source": "out_dex3/sources/com/worldance/novel/pbrpc/I18NNovelPbapi.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/bookmall/plan/v1/",
+      "serializer": "PB",
+      "request_type": "GetCommonPlanRequest",
+      "source": "out_dex3/sources/com/worldance/novel/pbrpc/I18NNovelPbapi.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/search/cell/change/v1/",
+      "serializer": "JSON",
+      "request_type": "GetSearchCellChangeRequest",
+      "source": "out_dex5/sources/com/worldance/novel/rpc/rpc/SearchApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/search/page/v1/",
+      "serializer": "JSON",
+      "request_type": "GetSearchResultPageRequest",
+      "source": "out_dex5/sources/com/worldance/novel/rpc/rpc/SearchApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/search/scroll_recommend/v1/",
+      "serializer": "JSON",
+      "request_type": "GetSearchScrollWordRequest",
+      "source": "out_dex5/sources/com/worldance/novel/rpc/rpc/SearchApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/search/front_page/v1/",
+      "serializer": "JSON",
+      "request_type": "SearchFrontPageRequest",
+      "source": "out_dex5/sources/com/worldance/novel/rpc/rpc/SearchApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/search/suggest/v1/",
+      "serializer": "JSON",
+      "request_type": "SearchSuggestRequest",
+      "source": "out_dex5/sources/com/worldance/novel/rpc/rpc/SearchApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/novel/articleapi/do_action/v1/",
+      "serializer": "JSON",
+      "request_type": "DoArticleActionRequest",
+      "source": "out_dex5/sources/com/dragon/read/saas/ugc/rpc/ArticleApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/novel/articleapi/relation/get_user_action/v1/",
+      "serializer": "JSON",
+      "request_type": "GetUserActionListRequest",
+      "source": "out_dex5/sources/com/dragon/read/saas/ugc/rpc/ArticleApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/ug/info_v2/v1/",
+      "serializer": "JSON",
+      "request_type": "GetColdStartInfoRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserGrowthApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/ug/undertake/get_plan/v1/",
+      "serializer": "JSON",
+      "request_type": "GetUndertakePlanRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserGrowthApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/ug/af/v1/",
+      "serializer": "JSON",
+      "request_type": "MergeAFRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserGrowthApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/ug/attribution/report/v1/",
+      "serializer": "JSON",
+      "request_type": "ReportAttributionRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserGrowthApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/ug/undertake/report/v1/",
+      "serializer": "JSON",
+      "request_type": "ReportPlanExecutionRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserGrowthApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/ug/upload_event/v1/",
+      "serializer": "JSON",
+      "request_type": "UploadEventRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserGrowthApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/userapi/book_action/v1/",
+      "serializer": "JSON",
+      "request_type": "BookActionRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/userapi/check_user_permission/v1/",
+      "serializer": "JSON",
+      "request_type": "CheckUserPrivilegeRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/userapi/common_callback/v1/",
+      "serializer": "JSON",
+      "request_type": "CommonCallbackRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/userapi/ocic/ticket/create/v1/",
+      "serializer": "JSON",
+      "request_type": "CreateTicketRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/userapi/get_config/v1/",
+      "serializer": "JSON",
+      "request_type": "GetConfigRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/userapi/get_frontier_config/v1/",
+      "serializer": "JSON",
+      "request_type": "GetFrontierConfigRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/userapi/location/geonameid/v1/",
+      "serializer": "JSON",
+      "request_type": "GetGeoNameIDRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/userapi/special_push/get/v1/",
+      "serializer": "JSON",
+      "request_type": "GetSpecialPushRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/userapi/ab/result/",
+      "serializer": "JSON",
+      "request_type": "GetUserAbResultRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/userapi/get_homepage/v1/",
+      "serializer": "JSON",
+      "request_type": "GetUserHomePageRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/userapi/get_profile/v1/",
+      "serializer": "JSON",
+      "request_type": "GetUserProfileRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/userapi/get_vip_info/v1/",
+      "serializer": "JSON",
+      "request_type": "GetUserVipInfoRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/userapi/withdraw/get/v1/",
+      "serializer": "JSON",
+      "request_type": "GetWithdrawInfoRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/userapi/ocic/reply/has_got/v1/",
+      "serializer": "JSON",
+      "request_type": "HasGotOcicReplyRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/userapi/ocic/reply/has_new/v1/",
+      "serializer": "JSON",
+      "request_type": "HasNewOcicReplyRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/userapi/ocic/ticket/has/v1/",
+      "serializer": "JSON",
+      "request_type": "HasTicketRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/userapi/report_answer/v1/",
+      "serializer": "JSON",
+      "request_type": "ReportAnswerRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/userapi/report_user_info/v1/",
+      "serializer": "JSON",
+      "request_type": "ReportUserInfoRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/userapi/set_record_info/v1/",
+      "serializer": "JSON",
+      "request_type": "SetRecordInfoRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/userapi/special_push/set/v1/",
+      "serializer": "JSON",
+      "request_type": "SetSpecialPushRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/userapi/set_profile/v1/",
+      "serializer": "JSON",
+      "request_type": "SetUserProfileRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/userapi/sync_merchant_user_vip_info/v1/",
+      "serializer": "JSON",
+      "request_type": "SyncMerchantUserVipInfoRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/userapi/sync_user_data/v1/",
+      "serializer": "JSON",
+      "request_type": "SyncUserDataRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/userapi/trigger_user_event/v1/",
+      "serializer": "JSON",
+      "request_type": "TriggerUserEventRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/userapi/withdraw/initiate/v1/",
+      "serializer": "JSON",
+      "request_type": "WithdrawRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/UserApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/bookmall/tab/v1/",
+      "serializer": "JSON",
+      "request_type": "GetBookMallHomePageRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/BookMallApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/bookmall/cell/change/v1/",
+      "serializer": "JSON",
+      "request_type": "GetCellChangeRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/BookMallApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/bookmall/plan/v1/",
+      "serializer": "JSON",
+      "request_type": "GetCommonPlanRequest",
+      "source": "out_dex7/sources/com/worldance/novel/rpc/rpc/BookMallApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/reader/recommend/book_end/v1/",
+      "serializer": "JSON",
+      "request_type": "BookEndRecommendRequest",
+      "source": "out_dex8/sources/com/worldance/novel/rpc/rpc/ReaderApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/reader/history/delete/v1/",
+      "serializer": "JSON",
+      "request_type": "DeleteUserReadHistoryRequest",
+      "source": "out_dex8/sources/com/worldance/novel/rpc/rpc/ReaderApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/reader/book_history/list/v1/",
+      "serializer": "JSON",
+      "request_type": "GetBookReadHistoryRequest",
+      "source": "out_dex8/sources/com/worldance/novel/rpc/rpc/ReaderApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/reader/short_play/get_time/v1/",
+      "serializer": "JSON",
+      "request_type": "GetShortPlayTimeRequest",
+      "source": "out_dex8/sources/com/worldance/novel/rpc/rpc/ReaderApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/reader/user/token/v1/",
+      "serializer": "JSON",
+      "request_type": "GetUidTokenRequest",
+      "source": "out_dex8/sources/com/worldance/novel/rpc/rpc/ReaderApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/reader/history/list/v1/",
+      "serializer": "JSON",
+      "request_type": "GetUserReadHistoryRequest",
+      "source": "out_dex8/sources/com/worldance/novel/rpc/rpc/ReaderApiService.java"
+    },
+    {
+      "method": "GET",
+      "path": "/i18n_novel/reader/items/full/",
+      "serializer": "JSON",
+      "request_type": "MGetFullRequest",
+      "source": "out_dex8/sources/com/worldance/novel/rpc/rpc/ReaderApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/reader/history/report/v1/",
+      "serializer": "JSON",
+      "request_type": "ReportUserReadHistoryRequest",
+      "source": "out_dex8/sources/com/worldance/novel/rpc/rpc/ReaderApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/reader/short_play/set_time/v1/",
+      "serializer": "JSON",
+      "request_type": "SetShortPlayTimeRequest",
+      "source": "out_dex8/sources/com/worldance/novel/rpc/rpc/ReaderApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/reader/history/sync/v1/",
+      "serializer": "JSON",
+      "request_type": "SyncUserReadHistoryRequest",
+      "source": "out_dex8/sources/com/worldance/novel/rpc/rpc/ReaderApiService.java"
+    },
+    {
+      "method": "POST",
+      "path": "/i18n_novel/reader/book_history/update/v1/",
+      "serializer": "JSON",
+      "request_type": "UpdateBookReadHistoryRequest",
+      "source": "out_dex8/sources/com/worldance/novel/rpc/rpc/ReaderApiService.java"
+    }
+  ],
+  "request_fields": {
+    "SyncUserReadHistoryRequest": {
+      "X-Xs-From-Web": "HEADER",
+      "isFromWeb": "HEADER"
+    },
+    "UploadPictureRequest": {
+      "scene": "QUERY"
+    },
+    "UpdateBookReadHistoryRequest": {
+      "X-Xs-From-Web": "HEADER",
+      "isFromWeb": "HEADER"
+    },
+    "GetCategoryListRequest": {
+      "X-Xs-From-Web": "HEADER",
+      "isFromWeb": "HEADER"
+    },
+    "ReportRequest": {
+      "appID": "QUERY"
+    },
+    "GetRelationListRequest": {
+      "appID": "QUERY"
+    },
+    "DeleteAIGCRequest": {
+      "appID": "QUERY"
+    },
+    "VipSubPaymentCallbackRequest": {
+      "request": "BODY",
+      "sign": "BODY"
+    },
+    "GetDirectoryItemInfosRequest": {
+      "X-Xs-From-Web": "HEADER",
+      "isFromWeb": "HEADER"
+    },
+    "GetUserAIGCListRequest": {
+      "compliance_status": "QUERY",
+      "appID": "QUERY",
+      "complianceStatus": "QUERY"
+    },
+    "CheckSubOrderStatusRequest": {
+      "X-Xs-From-Test": "HEADER",
+      "isFromTest": "HEADER"
+    },
+    "DelCommentRequest": {
+      "appID": "QUERY"
+    },
+    "AddTopicRequest": {
+      "appID": "QUERY"
+    },
+    "CheckUserPrivilegeRequest": {
+      "privilege_list": "BODY",
+      "vip_info": "BODY",
+      "privilegeList": "BODY",
+      "vipInfo": "BODY"
+    },
+    "UseUserAdExemptionCouponRequest": {
+      "book_id": "BODY",
+      "chapter_order": "BODY",
+      "coupon_id": "BODY",
+      "item_id": "BODY",
+      "order_key": "BODY",
+      "bookID": "BODY",
+      "chapterOrder": "BODY",
+      "couponId": "BODY",
+      "itemID": "BODY",
+      "orderKey": "BODY"
+    },
+    "RedeemCouponCodeRequest": {
+      "code": "BODY",
+      "scene": "BODY"
+    },
+    "GetUserReadHistoryRequest": {
+      "X-Xs-From-Web": "HEADER",
+      "isFromWeb": "HEADER"
+    },
+    "GetTTSAuthRequest": {
+      "force_update_token": "QUERY",
+      "forceUpdateToken": "QUERY"
+    },
+    "DeleteBookshelfRequest": {
+      "X-Xs-From-Web": "HEADER",
+      "isFromWeb": "HEADER"
+    },
+    "ReportCommentRequest": {
+      "aid": "QUERY",
+      "appID": "QUERY"
+    },
+    "UpdateVideoRequest": {
+      "aid": "QUERY",
+      "appID": "QUERY"
+    },
+    "UpdateCommentRequest": {
+      "aid": "QUERY",
+      "appID": "QUERY"
+    },
+    "SetUserConfigRequest": {
+      "aid": "QUERY",
+      "appID": "QUERY"
+    },
+    "GetUserCommentRequest": {
+      "aid": "QUERY",
+      "compliance_status": "QUERY",
+      "appID": "QUERY",
+      "complianceStatus": "QUERY"
+    },
+    "GetUserActionListRequest": {
+      "action_channel": "QUERY",
+      "aid": "QUERY",
+      "actionChannel": "QUERY",
+      "appID": "QUERY",
+      "count": "QUERY",
+      "cursor": "QUERY"
+    },
+    "GetIdeaListRequest": {
+      "aid": "QUERY",
+      "compliance_status": "QUERY",
+      "appID": "QUERY",
+      "complianceStatus": "QUERY"
+    },
+    "UploadVipDiscountPopupRecordRequest": {
+      "action_type": "BODY",
+      "pop_scene": "BODY",
+      "popup_enum": "BODY",
+      "actionType": "BODY",
+      "f3221id": "BODY",
+      "popScene": "BODY",
+      "popupEnum": "BODY"
+    },
+    "DeleteUserReadHistoryRequest": {
+      "X-Xs-From-Web": "HEADER",
+      "isFromWeb": "HEADER"
+    },
+    "UploadNonRecommendEventRequest": {
+      "group_id_list": "QUERY",
+      "request_id": "QUERY",
+      "groupIdList": "QUERY",
+      "requestId": "QUERY",
+      "scene": "QUERY"
+    },
+    "RechargeListRequest": {
+      "book_id": "QUERY",
+      "bookId": "QUERY",
+      "version": "QUERY"
+    },
+    "FeedBackRequest": {
+      "X-Xs-From-Web": "HEADER",
+      "isFromWeb": "HEADER"
+    },
+    "CreateVipSubscribeOrderV3Request": {
+      "X-Xs-From-Test": "HEADER",
+      "isFromTest": "HEADER"
+    },
+    "GetFeedDataRequest": {
+      "appID": "QUERY",
+      "channel": "BODY"
+    },
+    "GenerateAIContentRequest": {
+      "appID": "QUERY"
+    },
+    "GetUserArticleListStatisticRequest": {
+      "appID": "QUERY"
+    },
+    "AddPostRequest": {
+      "appID": "QUERY"
+    },
+    "UpdateTopicRequest": {
+      "aid": "QUERY",
+      "appID": "QUERY"
+    },
+    "MGetTopicDataRequest": {
+      "aid": "QUERY",
+      "appID": "QUERY"
+    },
+    "GetUserArticleSummaryStatisticRequest": {
+      "aid": "QUERY",
+      "appID": "QUERY"
+    },
+    "GetUserArticleStatisticDetailRequest": {
+      "aid": "QUERY",
+      "relative_type": "QUERY",
+      "appID": "QUERY",
+      "f1883iD": "QUERY",
+      "relativeType": "QUERY"
+    },
+    "GetVipProductListV3Request": {
+      "X-Xs-From-Test": "HEADER",
+      "isFromTest": "HEADER"
+    },
+    "VipSubStatusCallbackRequest": {
+      "request": "BODY",
+      "sign": "BODY"
+    },
+    "SyncBookshelfRequest": {
+      "X-Xs-From-Web": "HEADER",
+      "isFromWeb": "HEADER"
+    },
+    "GetUserWalletRequest": {
+      "wallet_type_list": "QUERY",
+      "walletTypeList": "QUERY"
+    },
+    "GetUserVipInfoRequest": {
+      "key": "QUERY"
+    },
+    "GetDirectoryInfoRequest": {
+      "X-Xs-From-Web": "HEADER",
+      "isFromWeb": "HEADER"
+    },
+    "GetCommonPlanRequest": {
+      "X-Xs-From-Web": "HEADER",
+      "isFromWeb": "HEADER"
+    },
+    "GetBookshelfRequest": {
+      "X-Xs-From-Web": "HEADER",
+      "isFromWeb": "HEADER"
+    },
+    "CancelSubscriptionRequest": {
+      "cancel_all": "BODY",
+      "publication_status": "BODY",
+      "cancelAll": "BODY",
+      "publicationStatus": "BODY"
+    },
+    "DeleteRequest": {
+      "aid": "QUERY",
+      "appID": "QUERY"
+    },
+    "MGetFullRequest": {
+      "X-Xs-From-Web": "HEADER",
+      "isFromWeb": "HEADER"
+    },
+    "GetUserProfileRequest": {
+      "key": "QUERY",
+      "aid": "QUERY",
+      "appID": "QUERY"
+    },
+    "GetOuterBookRankRequest": {
+      "Authorization": "HEADER",
+      "authorization": "HEADER"
+    },
+    "MGetPostDataRequest": {
+      "appID": "QUERY",
+      "channel": "BODY"
+    },
+    "GetUserConfigRequest": {
+      "compliance_status": "QUERY",
+      "appID": "QUERY",
+      "complianceStatus": "QUERY"
+    },
+    "GetReplyListRequest": {
+      "compliance_status": "QUERY",
+      "appID": "QUERY",
+      "complianceStatus": "QUERY"
+    },
+    "GetMixDataByTopicTagRequest": {
+      "appID": "QUERY",
+      "channel": "BODY"
+    },
+    "DoArticleActionRequest": {
+      "appID": "QUERY"
+    },
+    "AddCommentRequest": {
+      "appID": "QUERY"
+    },
+    "GetUserCouponListRequest": {
+      "type_list": "QUERY",
+      "typeList": "QUERY"
+    },
+    "AddVideoRequest": {
+      "appID": "QUERY"
+    },
+    "SyncMerchantUserVipInfoRequest": {
+      "merchant_user_id": "BODY",
+      "key": "BODY",
+      "merchantUserId": "BODY"
+    },
+    "GetUserVipPurchaseRecordsRequest": {
+      "record_type": "QUERY",
+      "limit": "QUERY",
+      "offset": "QUERY",
+      "recordType": "QUERY"
+    },
+    "GetFansClubJoinPanelRequest": {
+      "aid": "QUERY",
+      "book_id": "QUERY",
+      "appID": "QUERY",
+      "bookID": "QUERY"
+    },
+    "BookEndRecommendRequest": {
+      "X-Xs-From-Web": "HEADER",
+      "isFromWeb": "HEADER"
+    },
+    "AddReplyRequest": {
+      "appID": "QUERY"
+    },
+    "AddBookshelfRequest": {
+      "X-Xs-From-Web": "HEADER",
+      "isFromWeb": "HEADER"
+    },
+    "UploadEditedAIGCRequest": {
+      "aid": "QUERY",
+      "appID": "QUERY"
+    },
+    "GetTopicDataRequest": {
+      "aid": "QUERY",
+      "appID": "QUERY"
+    },
+    "GetCommentListRequest": {
+      "aid": "QUERY",
+      "compliance_status": "QUERY",
+      "appID": "QUERY",
+      "complianceStatus": "QUERY"
+    },
+    "MGetBookDetailRequest": {
+      "X-Xs-From-Web": "HEADER",
+      "isFromWeb": "HEADER"
+    },
+    "MGetUserActionInfoRequest": {
+      "appID": "QUERY"
+    },
+    "DoActionRequest": {
+      "appID": "QUERY"
+    },
+    "GetCellChangeRequest": {
+      "book_count": "QUERY",
+      "cell_card_offset": "QUERY",
+      "clear_survey_freq_control": "QUERY",
+      "client_pass_through_param": "QUERY",
+      "commercial_session_id": "QUERY",
+      "device_score": "QUERY",
+      "filter_book_id_list_cross_session": "QUERY",
+      "insert_ug_card_ids": "QUERY",
+      "X-Xs-From-Web": "HEADER",
+      "land_to_single_on_cold_start": "QUERY",
+      "launch_duration": "QUERY",
+      "launch_source": "QUERY",
+      "retained_book_id_list": "QUERY",
+      "bookCount": "QUERY",
+      "cellCardOffset": "QUERY",
+      "clearSurveyFreqControl": "QUERY",
+      "clientPassThroughParam": "QUERY",
+      "commercialSessionId": "QUERY",
+      "deviceScore": "QUERY",
+      "filterBookIdListCrossSession": "QUERY",
+      "insertUgCardIds": "QUERY",
+      "isFromWeb": "HEADER",
+      "landToSingleOnColdStart": "QUERY",
+      "launchDuration": "QUERY",
+      "launchSource": "QUERY",
+      "retainedBookIdList": "QUERY"
+    },
+    "SearchFrontPageRequest": {
+      "feature_switch": "QUERY",
+      "featureSwitch": "QUERY"
+    },
+    "ReportUserReadHistoryRequest": {
+      "X-Xs-From-Web": "HEADER",
+      "isFromWeb": "HEADER"
+    },
+    "GetBookReadHistoryRequest": {
+      "X-Xs-From-Web": "HEADER",
+      "isFromWeb": "HEADER"
+    },
+    "GetBookMallHomePageRequest": {
+      "allow_distribute_survey": "QUERY",
+      "book_count": "QUERY",
+      "book_status": "QUERY",
+      "cached_ad_count": "QUERY",
+      "call_sense": "QUERY",
+      "cdn_param": "QUERY",
+      "cell_card_offset": "QUERY",
+      "clear_survey_freq_control": "QUERY",
+      "client_ab_test_param": "QUERY",
+      "client_pass_through_param": "QUERY",
+      "client_req_reason": "QUERY",
+      "client_req_type": "QUERY",
+      "cold_start_hot_on_top": "QUERY",
+      "commercial_session_id": "QUERY",
+      "device_score": "QUERY",
+      "disable_pager": "QUERY",
+      "enable_cdn": "QUERY",
+      "enable_new_show_mechanism": "QUERY",
+      "feature_switch": "QUERY",
+      "filter_ids": "QUERY",
+      "finish_cold_start": "QUERY",
+      "has_show_newcomers": "QUERY",
+      "insert_book_id": "QUERY",
+      "insert_item_ids": "QUERY",
+      "insert_ug_card_ids": "QUERY",
+      "X-Xs-From-Web": "HEADER",
+      "is_preference_force_insert": "QUERY",
+      "is_preload": "QUERY",
+      "land_to_single_on_cold_start": "QUERY",
+      "last_category_id": "QUERY",
+      "last_genre": "QUERY",
+      "last_tab_scene": "QUERY",
+      "last_tab_type": "QUERY",
+      "launch_duration": "QUERY",
+      "launch_source": "QUERY",
+      "max_abstract_len": "QUERY",
+      "need_double_col_recall_card": "QUERY",
+      "preference_list": "QUERY",
+      "preference_strategy": "QUERY",
+      "repager": "QUERY",
+      "real_time_feature": "QUERY",
+      "selected_tag_map": "QUERY",
+      "selected_tags_json": "QUERY",
+      "tab_scene": "QUERY",
+      "tab_scene_sub_id": "QUERY",
+      "tab_type": "QUERY",
+      "time_zone": "QUERY",
+      "allowDistributeSurvey": "QUERY",
+      "bookCount": "QUERY",
+      "bookStatus": "QUERY",
+      "cachedAdCount": "QUERY",
+      "callSense": "QUERY",
+      "cdnParam": "QUERY",
+      "cellCardOffset": "QUERY",
+      "cid": "QUERY",
+      "clearSurveyFreqControl": "QUERY",
+      "clientABTestParam": "QUERY",
+      "clientPassThroughParam": "QUERY",
+      "clientReqReason": "QUERY",
+      "clientReqType": "QUERY",
+      "coldStartHotOnTop": "QUERY",
+      "commercialSessionId": "QUERY",
+      "deviceScore": "QUERY",
+      "disablePager": "QUERY",
+      "enableCdn": "QUERY",
+      "enableNewShowMechanism": "QUERY",
+      "featureSwitch": "QUERY",
+      "filterIds": "QUERY",
+      "finishColdStart": "QUERY",
+      "hasShowNewcomers": "QUERY",
+      "insertBookId": "QUERY",
+      "insertItemIds": "QUERY",
+      "insertUgCardIds": "QUERY",
+      "isFromWeb": "HEADER",
+      "isPreferenceForceInsert": "QUERY",
+      "isPreload": "QUERY",
+      "key": "QUERY",
+      "landToSingleOnColdStart": "QUERY",
+      "lastCategoryId": "QUERY",
+      "lastGenre": "QUERY",
+      "lastTabScene": "QUERY",
+      "lastTabType": "QUERY",
+      "launchDuration": "QUERY",
+      "launchSource": "QUERY",
+      "limit": "QUERY",
+      "maxAbstractLen": "QUERY",
+      "needDoubleColRecallCard": "QUERY",
+      "offset": "QUERY",
+      "preferenceList": "QUERY",
+      "preferenceStrategy": "QUERY",
+      "rePager": "QUERY",
+      "realTimeFeature": "QUERY",
+      "selectedTagMap": "QUERY",
+      "selectedTagsJson": "QUERY",
+      "sessionId": "QUERY",
+      "tabScene": "QUERY",
+      "tabSceneSubId": "QUERY",
+      "tabType": "QUERY",
+      "timeZone": "QUERY"
+    },
+    "UpdatePostRequest": {
+      "aid": "QUERY",
+      "appID": "QUERY"
+    }
+  }
+}
