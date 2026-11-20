@@ -26,6 +26,7 @@ jobs:
         run: |
           set -euo pipefail
           python3 -m py_compile src/melolo_client.py src/melolo_gui.py
+          rm -rf src/__pycache__
 
       - name: Susun hasil build
         run: |
